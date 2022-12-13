@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: Helvetica;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 30rem;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 8rem;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    border: solid 1px black;
+    margin: 1.5rem;
+}
+
+.item {
+    font-family: Helvetica;
+    list-style: none;
+    font-size: 2rem;
+    margin: 8px;
+}
+
+.item.line {
+    background-color: black;
+    width: 8rem;
+    height: 0.01rem;
+    margin-top: 0px;
+}
+
+.topline {
+    background-color: black;
+    width: 20rem;
+    height: 0.01rem;
+}
+
+.item.second {
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+/* .frog {
+    border: 2px solid black;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+    font-family: Helvetica;
+    animation: blink 20s; */

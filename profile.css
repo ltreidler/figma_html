@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    font-family: Helvetica;
+    background-color: rgb(186, 186, 186);
+    border-radius: 0 0 30px 30px;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(144, 144, 144);
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    height: 10%;
+    width: 10%;
+    margin-right: 0.5rem;
+}
+
+.basic {
+    margin-left: 0.5rem;
+}
+
+.name {
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem; 
+}
+
+.text {
+    display: flex;
+
+}
+
+.description {
+    flex-grow: 1;
+    margin: 10px;
+    margin-bottom: 4rem;
+}
+
+.loc {
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+}
+
+.line {
+    flex-grow: 1;
+    height: 0.02rem;
+    background-color: black;
+}
+
+h3 {
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+}
+
+p {
+    font-size: 10px;
+}
